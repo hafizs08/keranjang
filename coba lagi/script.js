@@ -6,15 +6,19 @@ $(document).ready(function(){
 });
 function update_amounts(){
     var sum = 0.0;
+    var tes = 0;
     $('#myTable > tbody  > tr').each(function() {
         var qty = $(this).find('.qty').val();
         var price = $(this).find('.price').val();
         var amount = (qty*price)
         sum+=amount;
+        tes+=qty;
+        
         $(this).find('.amount').text(''+amount);
     });
     $('.total').text(sum);
-    $('.totalB').text();
+    $('.totalB').text(tes);
+    //console.log(qty);
 }
 
 
