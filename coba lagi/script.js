@@ -59,3 +59,39 @@ function checkAll(myCheckbox){
         });
     }
 }
+
+function getClick(str) {
+    if (str.checked == true){
+       document.getElementById("cek").value = 150000;
+    
+    }else if (str.checked == false){
+    document.getElementById("cek").value = 0;
+    }
+    
+}
+
+function getClick2(str2) {
+    if (str2.checked == true){
+       document.getElementById("cek2").value = 75000;
+    
+    }else if (str2.checked == false){
+    document.getElementById("cek2").value = 0;
+    }  
+}
+
+function getClick3(str3) {
+    if (str3.checked == true){
+       document.getElementById("cek3").value = 50000;
+    
+    }else if (str3.checked == false){
+    document.getElementById("cek3").value = 0;
+    }  
+}
+function getClick4(str4) {
+    if (str4.checked == true){
+       document.getElementById("cek4").value = 300000;
+    
+    }else if (str4.checked == false){
+    document.getElementById("cek4").value = 0;
+    }  
+}
