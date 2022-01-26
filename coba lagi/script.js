@@ -95,7 +95,16 @@ function getClick4(str4) {
     document.getElementById("cek4").value = 0;
     }  
 }
+function getClick5(str5) {
+    if (str5.checked == true){
+       document.getElementById("cek5").value = 200000;
+    
+    }else if (str5.checked == false){
+    document.getElementById("cek5").value = 0;
+    }  
+}
+
 function disableBtn() {
     document.getElementById("tombol").disabled = false;
-  }
+}
  
