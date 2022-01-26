@@ -46,7 +46,7 @@
                      </td>
                      <td>
                         <div class="button-container">
-                           <button class="cart-qty-plus" type="button" value="+">+</button>
+                           <button class="cart-qty-plus" type="button" value="+" onclick="disableBtn()">+</button>
                            <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
                            <button class="cart-qty-minus" type="button" value="-">-</button>
                         </div>
@@ -72,7 +72,7 @@
          </td>
          <td>
             <div class="button-container">
-               <button class="cart-qty-plus" type="button" value="+">+</button>
+               <button class="cart-qty-plus" type="button" value="+" onclick="disableBtn()">+</button>
                <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
                <button class="cart-qty-minus" type="button" value="-">-</button>
             </div>
@@ -98,7 +98,7 @@
          </td>
          <td>
             <div class="button-container">
-               <button class="cart-qty-plus" type="button" value="+">+</button>
+               <button class="cart-qty-plus" type="button" value="+" onclick="disableBtn()">+</button>
                <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
                <button class="cart-qty-minus" type="button" value="-">-</button>
             </div>
@@ -128,7 +128,7 @@
          </td>
          <td>
             <div class="button-container">
-               <button class="cart-qty-plus" type="button" value="+">+</button>
+               <button class="cart-qty-plus" type="button" value="+" onclick="disableBtn()">+</button>
                <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
                <button class="cart-qty-minus" type="button" value="-">-</button>
             </div>
@@ -146,7 +146,7 @@
                      <td align="right">
                         <strong>TOTAL = Rp.  <span id="total" class="total">0</span>&nbsp;
                         </strong>
-                     <button onClick="window.location.href=window.location.href" class="btn btn-secondary">Check Out</button>
+                     <button onClick="window.location.href=window.location.href" class="btn btn-secondary" id="tombol" disabled>Check Out</button>
                      </td>
                      
                   </tr>

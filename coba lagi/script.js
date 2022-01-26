@@ -22,7 +22,7 @@ function update_amounts(){
 }
 
 
-//----------------for quantity-increment-or-decrement-------
+
 var incrementQty;
 var decrementQty;
 var plusBtn  = $(".cart-qty-plus");
@@ -95,3 +95,7 @@ function getClick4(str4) {
     document.getElementById("cek4").value = 0;
     }  
 }
+function disableBtn() {
+    document.getElementById("tombol").disabled = false;
+  }
+ 
